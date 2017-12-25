@@ -5,9 +5,9 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace AngularWebAPI.Controller
+namespace AngularWebAPI.Controllers
 {
-    public class BlogController : ApiController
+    public class BlogsController : ApiController
     {
         // GET api/<controller>
         public IEnumerable<string> Get()
