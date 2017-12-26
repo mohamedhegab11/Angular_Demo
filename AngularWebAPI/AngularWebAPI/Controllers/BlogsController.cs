@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace AngularWebAPI.Controllers
 {
+    [Authorize]
     public class BlogsController : ApiController
     {
         // GET api/<controller>
